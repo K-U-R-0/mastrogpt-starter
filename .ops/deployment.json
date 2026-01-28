@@ -1,0 +1,28 @@
+{
+  "packages": [
+    "hello",
+    "mastrogpt",
+    "afar"
+  ],
+  "packageActions": {
+    "hello": [
+      "sql",
+      "store",
+      "llm",
+      "cache",
+      "world",
+      "stream",
+      "vdb"
+    ],
+    "mastrogpt": [
+      "demo",
+      "login",
+      "index",
+      "hello",
+      "display"
+    ],
+    "afar": [
+      "reverse"
+    ]
+  }
+}
