@@ -40,9 +40,12 @@ def stateless(args):
   inp = args.get("input", "")
   if inp != "":
     #TODO:E2.3
-    print(input)
-    if input == "dog":
-      inp = "What do you think about cats?"
+    if inp == "llama":
+      MODEL = "llama3.1:8b"
+      inp = "Who are you?"
+    elif inp == "deepseek":
+      MODEL = "deepseek-r1:32b"
+      inp = "Who are you?"
     
     # add if to switch to llama3.1:8b or deepseek-r1:32b
     # on input 'llmama' or 'deepseek' and change the inp to "who are you"
