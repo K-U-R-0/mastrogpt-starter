@@ -1,28 +1,34 @@
 {
   "packages": [
     "hello",
-    "mastrogpt",
-    "afar"
+    "chat",
+    "afar",
+    "mastrogpt"
   ],
   "packageActions": {
     "hello": [
       "sql",
       "store",
-      "llm",
-      "cache",
-      "world",
+      "vdb",
       "stream",
-      "vdb"
+      "world",
+      "cache",
+      "llm"
     ],
-    "mastrogpt": [
-      "demo",
-      "login",
-      "index",
-      "hello",
-      "display"
+    "chat": [
+      "stateless",
+      "simple",
+      "countdown"
     ],
     "afar": [
       "reverse"
+    ],
+    "mastrogpt": [
+      "display",
+      "hello",
+      "index",
+      "login",
+      "demo"
     ]
   }
 }
