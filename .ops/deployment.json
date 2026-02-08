@@ -3,7 +3,8 @@
     "hello",
     "chat",
     "afar",
-    "mastrogpt"
+    "mastrogpt",
+    "form"
   ],
   "packageActions": {
     "hello": [
@@ -29,6 +30,13 @@
       "index",
       "login",
       "demo"
+    ],
+    "form": [
+      "puzzle",
+      "auth",
+      "postgen",
+      "cache",
+      "hello"
     ]
   }
 }
